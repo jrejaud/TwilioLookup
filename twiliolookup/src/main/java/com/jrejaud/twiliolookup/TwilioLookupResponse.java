@@ -1,4 +1,4 @@
-package com.jrejaud.twiliolookup.Networking;
+package com.jrejaud.twiliolookup;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -42,7 +42,7 @@ public class TwilioLookupResponse {
      * @param callerName
      * The caller_name
      */
-    public void setCallerName(Object callerName) {
+    protected void setCallerName(Object callerName) {
         this.callerName = callerName;
     }
 
@@ -60,7 +60,7 @@ public class TwilioLookupResponse {
      * @param countryCode
      * The country_code
      */
-    public void setCountryCode(String countryCode) {
+    protected void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
     }
 
@@ -78,7 +78,7 @@ public class TwilioLookupResponse {
      * @param phoneNumber
      * The phone_number
      */
-    public void setPhoneNumber(String phoneNumber) {
+    protected void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -96,7 +96,7 @@ public class TwilioLookupResponse {
      * @param nationalFormat
      * The national_format
      */
-    public void setNationalFormat(String nationalFormat) {
+    protected void setNationalFormat(String nationalFormat) {
         this.nationalFormat = nationalFormat;
     }
 
@@ -114,7 +114,7 @@ public class TwilioLookupResponse {
      * @param carrier
      * The twilioLookupResponseCarrier
      */
-    public void setCarrier(TwilioLookupResponseCarrier carrier) {
+    protected void setCarrier(TwilioLookupResponseCarrier carrier) {
         this.carrier = carrier;
     }
 
@@ -127,12 +127,4 @@ public class TwilioLookupResponse {
         return url;
     }
 
-    /**
-     *
-     * @param url
-     * The url
-     */
-    public void setUrl(String url) {
-        this.url = url;
-    }
 }

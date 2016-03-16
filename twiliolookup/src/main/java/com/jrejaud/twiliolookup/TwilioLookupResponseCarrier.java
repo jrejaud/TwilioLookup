@@ -1,4 +1,4 @@
-package com.jrejaud.twiliolookup.Networking;
+package com.jrejaud.twiliolookup;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -35,7 +35,7 @@ public class TwilioLookupResponseCarrier {
     /**
      * @param mobileCountryCode The mobile_country_code
      */
-    public void setMobileCountryCode(String mobileCountryCode) {
+    protected void setMobileCountryCode(String mobileCountryCode) {
         this.mobileCountryCode = mobileCountryCode;
     }
 
@@ -49,7 +49,7 @@ public class TwilioLookupResponseCarrier {
     /**
      * @param mobileNetworkCode The mobile_network_code
      */
-    public void setMobileNetworkCode(String mobileNetworkCode) {
+    protected void setMobileNetworkCode(String mobileNetworkCode) {
         this.mobileNetworkCode = mobileNetworkCode;
     }
 
@@ -63,7 +63,7 @@ public class TwilioLookupResponseCarrier {
     /**
      * @param name The name
      */
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 
@@ -77,7 +77,7 @@ public class TwilioLookupResponseCarrier {
     /**
      * @param type The type
      */
-    public void setType(String type) {
+    protected void setType(String type) {
         this.type = type;
     }
 
@@ -91,7 +91,7 @@ public class TwilioLookupResponseCarrier {
     /**
      * @param errorCode The error_code
      */
-    public void setErrorCode(Object errorCode) {
+    protected void setErrorCode(Object errorCode) {
         this.errorCode = errorCode;
     }
 
