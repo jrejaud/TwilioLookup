@@ -33,6 +33,9 @@ TwilioLookup.lookup("theNumberYouWantToLookup", new TwilioLookup.OnResponseCallb
 
 Installation
 ===
+
+See [JitPack](https://jitpack.io/#jrejaud/TwilioLookup) for more information.
+
 ```
 allprojects {
 	repositories {
