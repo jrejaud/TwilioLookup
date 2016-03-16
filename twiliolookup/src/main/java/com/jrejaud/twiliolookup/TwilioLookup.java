@@ -31,6 +31,7 @@ public class TwilioLookup {
 
     private static TwilioService twilioService;
 
+    /** Set your Twilio AccountSid and AuthToken */
     public static void setAuthorization(String accountSid, String authToken) {
         TwilioLookup.accountSid = accountSid;
         TwilioLookup.authToken = authToken;
@@ -67,6 +68,7 @@ public class TwilioLookup {
         twilioService = retrofit.create(TwilioService.class);
     }
 
+    /** Use Twilio to lookup if a number is valid or invalid */
     public static void lookup(String phoneNumber, final OnResponseCallback onResponseCallback) {
 
         if (accountSid==null||authToken==null) {
