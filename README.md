@@ -1,4 +1,8 @@
 # TwilioLookup
+
+[![](https://jitpack.io/v/jrejaud/TwilioLookup.svg)](https://jitpack.io/#jrejaud/TwilioLookup)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TwilioLookup-green.svg?style=true)](https://android-arsenal.com/details/1/3298)
+
 Android wrapper for Twilio's Phone Lookup API
 
 Simple Android wrapper for [Twilio's Phone Lookup](https://www.twilio.com/lookup)
@@ -30,3 +34,18 @@ TwilioLookup.lookup("theNumberYouWantToLookup", new TwilioLookup.OnResponseCallb
 Installation
 ===
 
+See [JitPack](https://jitpack.io/#jrejaud/TwilioLookup) for more information.
+
+```
+allprojects {
+	repositories {
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+```
+dependencies {
+	    compile 'com.github.jrejaud:TwilioLookup:v1.0'
+}
+```
