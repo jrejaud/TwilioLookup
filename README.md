@@ -1,7 +1,7 @@
 # TwilioLookup
 
 [![](https://jitpack.io/v/jrejaud/TwilioLookup.svg)](https://jitpack.io/#jrejaud/TwilioLookup)
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TwilioLookup-green.svg?style=true)](https://android-arsenal.com/details/1/3298)
 
 Android wrapper for Twilio's Phone Lookup API
 
