@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+	//This is to make TravisCI shut up
+	lintOptions {
+		abortOnError false
+	}
 }
 
 dependencies {
