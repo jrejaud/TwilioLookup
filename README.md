@@ -10,7 +10,7 @@ Simple Android wrapper for [Twilio's Phone Lookup](https://www.twilio.com/lookup
 
 Example
 ===
-```
+```java
 TwilioLookup.setAuthorization("yourTwilioAccountSid", "yourTwilioAuthToken");
 
 TwilioLookup.lookup("theNumberYouWantToLookup", new TwilioLookup.OnResponseCallback() {
@@ -37,7 +37,7 @@ Installation
 
 See [JitPack](https://jitpack.io/#jrejaud/TwilioLookup) for more information.
 
-```
+```groovy
 allprojects {
 	repositories {
 		maven { url "https://jitpack.io" }
@@ -45,7 +45,7 @@ allprojects {
 }
 ```
 
-```
+```groovy
 dependencies {
 	    compile 'com.github.jrejaud:TwilioLookup:v1.0'
 }
