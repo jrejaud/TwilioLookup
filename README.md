@@ -4,9 +4,7 @@
 [![Build Status](https://travis-ci.org/jrejaud/TwilioLookup.svg?branch=master)](https://travis-ci.org/jrejaud/TwilioLookup)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TwilioLookup-green.svg?style=true)](https://android-arsenal.com/details/1/3298)
 
-Android wrapper for Twilio's Phone Lookup API
-
-Simple Android wrapper for [Twilio's Phone Lookup](https://www.twilio.com/lookup)
+Simple Android wrapper for [Twilio's Phone Lookup](https://www.twilio.com/lookup) API
 
 Example
 ===
